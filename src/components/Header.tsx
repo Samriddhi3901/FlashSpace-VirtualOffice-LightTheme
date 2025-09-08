@@ -8,12 +8,21 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-       <Link to="/" className="flex-shrink-0 hover:opacity-80 transition-opacity">
-  <div className="flex items-center">
-    <span className="text-2xl font-bold text-black dark:text-white">FLASH</span>
-    <span className="text-yellow-400 text-2xl font-bold mx-1">⚡</span>
-    <span className="text-2xl font-light italic text-blue-600 dark:text-white">Space</span>
-  </div>
+       <Link to="/" className="flex-shrink-0">
+  <img 
+    src="/lovable-uploads/21dc5cb1-4299-40e8-8123-27772eb57a10.png" 
+    alt="FlashSpace Logo" 
+    className="h-12 w-auto md:h-14 hover:opacity-80 transition-opacity"
+    style={{
+      filter: 'none'
+    }}
+    onLoad={(e) => {
+      const isDark = document.documentElement.classList.contains('dark');
+      if (isDark) {
+        e.target.style.filter = 'invert(1) hue-rotate(60deg) saturate(2) brightness(1.1)';
+      }
+    }}
+  />
 </Link>
           {/* Theme Toggle and CTA */}
           <div className="flex items-center space-x-4">

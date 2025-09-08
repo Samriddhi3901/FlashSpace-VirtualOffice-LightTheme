@@ -9,14 +9,11 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
         <Link to="/" className="flex-shrink-0">
-  <img 
-    src="/lovable-uploads/21dc5cb1-4299-40e8-8123-27772eb57a10.png" 
-    alt="FlashSpace Logo" 
-    className="h-12 w-auto md:h-14 hover:opacity-80 transition-opacity dark:invert dark:hue-rotate-180 dark:brightness-125"
-    style={{
-      filter: 'drop-shadow(0 0 0 transparent)'
-    }}
-  />
+  <div className="flex items-center hover:opacity-80 transition-opacity">
+    <span className="text-2xl font-bold text-white">FLASH</span>
+    <div className="text-yellow-400 text-2xl font-bold mx-1">⚡</div>
+    <span className="text-2xl font-light italic text-white">Space</span>
+  </div>
 </Link>
 
           {/* Theme Toggle and CTA */}

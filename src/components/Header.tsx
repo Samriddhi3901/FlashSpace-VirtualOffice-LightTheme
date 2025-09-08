@@ -10,11 +10,13 @@ export const Header = () => {
           {/* Logo */}
        <Link to="/" className="flex-shrink-0 hover:opacity-80 transition-opacity">
   <div className="flex items-center">
-    <span className="text-2xl font-bold text-black dark:text-white">FLASH</span>
-    <div className="relative mx-1">
-      <div className="w-6 h-8 bg-yellow-400 transform rotate-12 clip-path-lightning"></div>
+    <span className="text-2xl font-black text-black bg-white px-2 py-1 tracking-tight">FLASH</span>
+    <div className="w-8 h-6 bg-yellow-400 mx-1 transform rotate-12" 
+         style={{
+           clipPath: 'polygon(20% 0%, 60% 0%, 40% 50%, 80% 50%, 40% 100%, 0% 100%, 20% 50%, 0% 50%)'
+         }}>
     </div>
-    <span className="text-2xl font-light italic text-black dark:text-white" style={{fontFamily: 'cursive'}}>Space</span>
+    <span className="text-2xl italic text-black dark:text-white font-light" style={{fontFamily: 'Brush Script MT, cursive'}}>Space</span>
   </div>
 </Link>
           {/* Theme Toggle and CTA */}

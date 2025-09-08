@@ -9,12 +9,12 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img 
-              src="/lovable-uploads/21dc5cb1-4299-40e8-8123-27772eb57a10.png" 
-              alt="FlashSpace Logo" 
-              className="h-8 w-auto hover:opacity-80 transition-opacity"
-            />
-          </Link>
+  <img 
+    src="/lovable-uploads/21dc5cb1-4299-40e8-8123-27772eb57a10.png" 
+    alt="FlashSpace Logo" 
+    className="h-10 w-auto hover:opacity-80 transition-opacity dark:invert"
+  />
+</Link>
 
           {/* Theme Toggle and CTA */}
           <div className="flex items-center space-x-4">

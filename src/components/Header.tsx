@@ -8,11 +8,11 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex-shrink-0">
+         <Link to="/" className="flex-shrink-0">
   <img 
     src="/lovable-uploads/21dc5cb1-4299-40e8-8123-27772eb57a10.png" 
     alt="FlashSpace Logo" 
-    className="h-10 w-auto hover:opacity-80 transition-opacity dark:invert"
+    className="h-12 w-auto md:h-14 hover:opacity-80 transition-opacity dark:brightness-0 dark:invert"
   />
 </Link>
 

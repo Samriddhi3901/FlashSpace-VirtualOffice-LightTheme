@@ -8,9 +8,9 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-       <Link to="/" className="flex-shrink-0 hover:opacity-80 transition-opacity">
+     <Link to="/" className="flex-shrink-0 hover:opacity-80 transition-opacity">
   <div className="flex items-center">
-    <span className="text-2xl font-black text-black bg-white px-2 py-1 rounded tracking-tight">FLASH</span>
+    <span className="text-2xl font-black text-black bg-white px-3 py-1 rounded shadow-sm tracking-tight">FLASH</span>
     <div className="w-8 h-6 bg-yellow-400 mx-1 transform rotate-12" 
          style={{
            clipPath: 'polygon(20% 0%, 60% 0%, 40% 50%, 80% 50%, 40% 100%, 0% 100%, 20% 50%, 0% 50%)'
